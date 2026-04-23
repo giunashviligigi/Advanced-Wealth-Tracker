@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gg_li_cl_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/gg_li_tv_profile_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/gg_li_profile_title"
+        android:textColor="#1C1F26"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gg_li_tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="#F1F4FA"
+        android:padding="14dp"
+        android:text="@string/gg_li_name_label"
+        android:textColor="#2D3442"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gg_li_tv_profile_title" />
+
+    <TextView
+        android:id="@+id/gg_li_tv_k_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#E7EEFF"
+        android:padding="14dp"
+        android:text="@string/gg_li_k_label"
+        android:textColor="#1E4FD8"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gg_li_tv_age" />
+
+    <TextView
+        android:id="@+id/gg_li_tv_age"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#F1F4FA"
+        android:padding="14dp"
+        android:text="@string/gg_li_age_label"
+        android:textColor="#2D3442"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gg_li_tv_name" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

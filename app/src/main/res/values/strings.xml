@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Advanced Wealth Tracker</string>
+    <string name="gg_li_tab_input">Input</string>
+    <string name="gg_li_tab_analytics">Analytics</string>
+    <string name="gg_li_tab_profile">Profile</string>
+    <string name="gg_li_input_title">Enter your financial data</string>
+    <string name="gg_li_analytics_title">Analytics overview</string>
+    <string name="gg_li_profile_title">Profile</string>
+    <string name="gg_li_hint_income">Income</string>
+    <string name="gg_li_hint_expenses">Expenses</string>
+    <string name="gg_li_save">Save</string>
+    <string name="gg_li_income_default">Income: 0.00</string>
+    <string name="gg_li_expenses_default">Expenses: 0.00</string>
+    <string name="gg_li_savings_default">Final Savings: 0.00 (K: 0.7143)</string>
+    <string name="gg_li_income_label">Income: %1$.2f</string>
+    <string name="gg_li_expenses_label">Expenses: %1$.2f</string>
+    <string name="gg_li_savings_label">Final Savings: %1$.2f (K: %2$.4f)</string>
+    <string name="gg_li_name_label">Name: Gigi Giunashvili</string>
+    <string name="gg_li_age_label">Age: 21</string>
+    <string name="gg_li_k_label">K: %1$.4f</string>
+    <string name="gg_li_error_required">This field is required</string>
+    <string name="gg_li_error_invalid_number">Enter a valid number</string>
+</resources>
